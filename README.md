@@ -29,9 +29,9 @@ _There are no known bugs._
 
 ## Commit History
 
-_Due to complication with git earlier today, below is a few screen shots that captured previous commits._
+_Due to complication with git earlier today, below are screen shots of what I was receiving on my terminal as well as commits that are on shown on my GitHub.<br>_
 <img src="img/img1.png" width="180" height="120" alt="Screenshot1">
-<img src="img/img1.png" width="180" height="120" alt="Screenshot2">
+<img src="img/img2.png" width="180" height="50" alt="Screenshot2">
 
 ## Support and contact details
 
