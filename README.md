@@ -2,7 +2,7 @@
 
 #### _Intro to Programming, Week 3 Independent Project, 04.05.2019_
 
-#### By _AJ Ancheta_
+#### By _Ashley J. Ancheta_
 
 ## Description
 
