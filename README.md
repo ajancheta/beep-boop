@@ -1,4 +1,4 @@
-# _Beep Bop_
+# _Beep Boop_
 
 #### _Intro to Programming, Week 3 Independent Project, 04.05.2019_
 
