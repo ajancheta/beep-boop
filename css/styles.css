@@ -1,25 +1,20 @@
 body {
   margin: 10%;
   color: #000000;
+  font-family: 'Nunito', sans-serif;
   background-image: url("https://images.unsplash.com/photo-1522932753915-9ee97e43e3d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2082&q=80");
   background-attachment: fixed;
   background-position: bottom right;
   background-size: 40%;
   background-repeat: no-repeat;
-  font-family: 'Nunito', sans-serif;
-}
-
-.jumbotron {
-  float: left;
-  background-color: #314970;
-  border-radius: 10px;
-  border: solid 1px #c2c6c4;
-  margin: 5%;
 }
 
 #formOne {
   margin: 5%;
-  float: left;
+}
+
+button {
+  
 }
 
 #name {
@@ -43,4 +38,5 @@ h2 {
 }
 #formTwo {
   display: none;
+  margin: 10%;
 }
