@@ -5,8 +5,7 @@
 #### By _Ashley J. Ancheta_
 
 ## Description
-
-__
+_This application will allow the user to input a number. Based on the values from 0 to the number that they will input, there will be elements that will replace some of the values due to various conditions. Concepts such as arrays and loops from Week 3 of introduction to programming were applied to build this program.__
 
 ## Specs
 | Behavior | Input | Output |
@@ -28,13 +27,19 @@ __
 
 _There are no known bugs._
 
+## Commit History
+
+_Due to complication with git earlier today, below is a few screen shots that captured previous commits._
+![Img1]("img/img1")
+![Img1]("img/img2")
+
 ## Support and contact details
 
 _Should any problems occur, discover other bugs, or experience issues with viewing, please contact me at ashleyjancheta@gmail.com_
 
 ## Technologies Used
 
-_This webpage was written in HTML and styled using Bootstrap as well as custom css created._
+_This webpage was written in HTML. Style was created using Bootstrap and a custom style page. Effects were implemented using JQuery library and a custom JavaScript page._
 
 ### License
 
