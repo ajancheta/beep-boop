@@ -19,7 +19,7 @@ var execute = function convertNumToWords(numInput) {
     output.push(" " + userName + "," + " a divisible of 5!");
   } if (i % 404 === 0 && i > 0) {
     output.push(" " + userName + "," + " you found an ERROR 404");
-//.toString() method will convert [i] to a string and will screen for numbers that include "1", "2" or "3" to replace with another string. .includes() will screen array for the specific values.
+//.toString() method will convert [i] to a string and will screen for numbers that include "1", "2" or "3" to replace with another string.
     } else if ([i].toString().includes("1")) {
       output.push(" Beep");
     } else if ([i].toString().includes("2")) {
@@ -51,5 +51,6 @@ $(document).ready(function(){
     var userInput = $("input#userInput").val();
     isNumber(userInput);
     $("h3").text(execute(userInput));
+    $("#formTwo").hide();
   });
 });
