@@ -5,17 +5,38 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
-    <title>Beep Bop</title>
-  </head>
-  <body class=container>
-    <form id="formOne">
-    <div class="form-group">
-      <label for="sentence">Enter a number to get a message:</label>
-      <input id="sentenceInput" type="text">
-    </div>
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Nunito" rel="stylesheet">
+    <title>Beep Boop</title>
+  </head> x
+  <body>
+    <div class="container">
+      <div class="welcomemsg">
+        <h1 id="welcome">Greetings!</h1>
+        <h2>You've reached a webpage where <br>you can enter a number and<br> recieve a message from me.</h2>
+      </div>
 
-    <button type="submit" class="btn">Submit</button>
-    </form>
+      <form id="formOne">
+        <p>First, tell me who you are:</p>
+        <div class="form-row">
+          <div class="col">
+            <input id="name" class="form-control" placeholder="Enter your name">
+          </div>
+        </div>
+        <br><button type="submit" name="button">Let's go!</button>
+      </form>
+
+      <form id="formTwo">
+        <div class="form-group">
+          <label for="number">Enter a number to get a message:</label>
+          <input id="userInput" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+
+      <div id="result">
+        <h3></h3>
+      </div>
+    </div>
   </body>
 </html>
