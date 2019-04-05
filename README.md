@@ -1,4 +1,4 @@
-# _Track Suggester_
+# _Beep Bop_
 
 #### _Intro to Programming, Week 3 Independent Project, 04.05.2019_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a track suggester that generates information about a language based on answers from a questionnaire. This project was independently created to display concepts learned within the second week of intro to programming._
+__
 
 ## Specs
 | Behavior | Input | Output |
