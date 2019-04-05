@@ -1,6 +1,6 @@
 # _Track Suggester_
 
-#### _Intro to Programming, Week 2 Independent Project, 03.29.2019_
+#### _Intro to Programming, Week 3 Independent Project, 04.05.2019_
 
 #### By _AJ Ancheta_
 
@@ -13,14 +13,14 @@ _This is a track suggester that generates information about a language based on 
 | ------------- |:-------------:| -----:|
 | Recognize that the user input is a number | a | NaN |
 | Program will return a range of numbers from 0 to the input number | 3 | 0, 1, 2, 3 |
-| Recognize that an input contains a 1 and replace with "Beep!" | 3 | 0, "Beep!", 2, 3 |
-| Recognize that an input contains a 2 and replace with "Boop!" | 3 | 0, "Beep!", "Boop!", 3 |
-| Recognize that an input contains a 3 and replace with "I'm sorry *name*, I'm afraid I can't do that." | 3 | 0, "Beep!", "Boop!", "I'm sorry *name*. I can't do that." |
+| Given that an input contains a 1, replace with "Beep!" | 3 | 0, "Beep!", 2, 3 |
+| Given that an input contains a 2, replace with "Boop!" | 3 | 0, "Beep!", "Boop!", 3 |
+| Given that an input contains a 3, replace with "I'm sorry *name*, I'm afraid I can't do that." | 3 | 0, "Beep!", "Boop!", "I'm sorry *name*. I can't do that." |
 | | | |
 
 ## Setup/Installation Requirements
 
-* Go to this link to view the page on GitHub "https://ajancheta.github.io/track-suggester". You may also clone this repository "https://github.com/ajancheta/track-suggester.git"
+* Go to this link to view the page on GitHub "https://ajancheta.github.io/beep-bop". You may also clone this repository "https://github.com/ajancheta/beep-bop.git"
 * Open the repository in a preferred text editor such as Atom.
 * Open the file and view in the web browser of preference.
 
