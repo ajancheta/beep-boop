@@ -1,42 +1,90 @@
 body {
   margin: 10%;
   color: #000000;
+  background-color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
-  background-image: url("https://images.unsplash.com/photo-1522932753915-9ee97e43e3d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=2082&q=80");
+  background-color: #e3e3e3;
+  background-image: url(../img/cool-background.png);
+  background-size: 60%;
   background-attachment: fixed;
   background-position: bottom right;
-  background-size: 40%;
-  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background-color: #FFFF;
+  border-radius: 10px;
+  border: solid 1px #c2c6c4;
+  margin: 20%;
 }
 
 #formOne {
   margin: 5%;
 }
 
-button {
-  
-}
-
+/* input id bar */
 #name {
   width: 400px;
 }
 
+img {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+
+button {
+  border-radius: 5%;
+  border: solid 1px #c2c6c4;
+  background-color: #c8ceca;
+}
+
+#result {
+  display: none;
+
+}
+
+#formTwo {
+  display:none;
+  font-family: 'Nunito', serif;
+}
+
 #welcome {
   font-size: 90px;
-  text-align: left;
-  font-family: 'Cardo', serif;
+  text-align: center;
+  font-family: 'Nunito', serif;
   font-style: bold;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
+  border-bottom: 0.7px solid #c2c6c4;
+}
 
 h2 {
   text-align: left;
-  font-family: 'Brawler', serif;
+  direction: rtl;
+  font-family: 'Nunito', serif;
   font-style: bold;
-  letter-spacing: -6px;
+  letter-spacing: -1px;
+  font-size: 30px;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Nunito', serif;
+  font-style: bold;
+  letter-spacing: -2px;
+  border-bottom: 0.7px solid #c2c6c4;
 }
-#formTwo {
+
+.well {
+  background-color: #ffffff;
+  margin: 5%;
+  padding: 2%;
+  border-radius: 10px;
+  border: solid 1px #c2c6c4;
   display: none;
-  margin: 10%;
+}
+
+border {
+  padding: 30px;
 }

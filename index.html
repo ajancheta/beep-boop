@@ -10,32 +10,41 @@
   </head>
   <body>
     <div class="container">
-      <div class="welcomemsg">
-        <h1 id="welcome">Greetings!</h1>
-        <h2>You've reached a webpage where <br>you can enter a number and<br> recieve a message from me.</h2>
+      <div class="jumbotron">
+        <div class="welcomemsg">
+          <h1 id="welcome">Greetings!</h1>
+          <h2>You've reached a webpage where you can enter a number and recieve a message from me</h2>
+
+        <form id="formOne">
+          <p>First tell me who you are:</p>
+          <div class="form-row">
+            <div class="col">
+              <input id="name" class="form-control" placeholder="Enter your name">
+            </div>
+          </div>
+          <br><button type="submit" name="button">Submit</button>
+          </div>
+        </form>
       </div>
 
-      <form id="formOne">
-        <p>First tell me who you are:</p>
-        <div class="form-row">
-          <div class="col">
-            <input id="name" class="form-control" placeholder="Enter your name">
-          </div>
-        </div>
-        <br><button type="submit" name="button">Submit</button>
-      </form>
-
       <form id="formTwo">
-        <div class="form-group">
-          <label for="number">Enter a number to get a message:</label><br>
-          <input id="userInput" type="text">
+        <div class="well">
+          <div class="form-group">
+            <label for="number">Enter a number to get a message:</label><br>
+            <input id="userInput" type="text">
+          </div>
+          <button type="submit" name="button">Submit</button>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 
       <div id="result">
-        <br><h3></h3>
+        <div class="well">
+          <img src="img/robo.gif" alt="A vector of a robot" align="center"><br>
+          <h1>Hey <span class="name"></span>, have a nice day!<br>
+          <h3></h3>
+        </div>
       </div>
+
     </div>
   </body>
 </html>

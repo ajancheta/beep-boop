@@ -4,6 +4,7 @@
 function isNumber(input) {
   if (isNaN(input)) {
     alert("Please enter a number that I can read.")
+    window.location.reload();
   } else {
     return true;
   }
@@ -16,8 +17,8 @@ var execute = function convertNumToWords(numInput) {
   for (var i=0; i <=numInput; i++) {
 // Based on the conditions of the if statements, it will replace the number to another string. .push() method will add one or more elements to the end of the output array and adds a new length of the array.
     if (i % 5 === 0 && i > 0) {
-    output.push(" " + userName + "," + " a divisible of 5!");
-  } if (i % 404 === 0 && i > 0) {
+    output.push(" " + userName + "," + " you're awesome!");
+  } if (i === 404) {
     output.push(" " + userName + "," + " you found an ERROR 404");
 //.toString() method will convert [i] to a string and will screen for numbers that include "1", "2" or "3" to replace with another string.
     } else if ([i].toString().includes("1")) {
@@ -40,9 +41,10 @@ $(document).ready(function(){
     var nameInput = $("input#name").val();
     $(".name").text(nameInput);
     $("#formTwo").fadeToggle();
+    $(".well").fadeToggle();
     $("#formOne").hide();
     $(".welcomemsg").hide();
-    $("")
+    $(".jumbotron").hide();
 
   });
 
@@ -51,6 +53,10 @@ $(document).ready(function(){
     var userInput = $("input#userInput").val();
     isNumber(userInput);
     $("h3").text(execute(userInput));
+    $("#formOne").hide();
     $("#formTwo").hide();
+    $("#result").show();
+    $("img").show();
+    $(".jumbotron").hide();
   });
 });
