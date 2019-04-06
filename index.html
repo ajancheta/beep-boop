@@ -5,15 +5,20 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Cardo|Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+
     <title>Beep Boop</title>
   </head>
   <body>
     <div class="container">
+      <div class="welcomeRobo">
+        <marquee behavior="scroll" direction="left"><h2 id="welcomeRobo" data-in-effect="rollIn">Click my hand to run me</h2></marquee>
+        <img src="https://media.giphy.com/media/q3kBTEbu3InMQ/giphy.gif" alt="A gif of a robot hand robot">
+      </div>
       <div class="jumbotron">
         <div class="welcomemsg">
-          <h1 id="welcome">Greetings!</h1>
-          <h2>You've reached a webpage where you can enter a number and recieve a message from me</h2>
+          <h1 id="welcome">Greetings</h1>
+          <h2>Thank you for initializing me! You have reached a webpage where you can enter a number and recieve a message from me</h2>
 
         <form id="formOne">
           <p>First tell me who you are:</p>
@@ -30,18 +35,21 @@
       <form id="formTwo">
         <div class="well">
           <div class="form-group">
-            <label for="number">Enter a number to get a message:</label><br>
+            <label for="number">Enter any number greater than zero:</label><br>
             <input id="userInput" type="text">
           </div>
-          <button type="submit" name="button">Submit</button>
+          <button type="submit" name="button">Send</button>
         </div>
       </form>
 
       <div id="result">
         <div class="well">
-          <img src="img/robo.gif" alt="A vector of a robot" align="center"><br>
+          <div class="robogif">
+            <center><img src="img/robo2.gif" alt="A gif of a robot"></center><br>
+          </div>
           <h1>Hey <span class="name"></span>, have a nice day!<br>
-          <h3></h3>
+          <h3></h3><br>
+          <a href="https://ajancheta.github.io/beep-boop/">Go Back Home</a>
         </div>
       </div>
 

@@ -36,10 +36,18 @@ var execute = function convertNumToWords(numInput) {
 
 // User Interface logic
 $(document).ready(function(){
+  $(".welcomeRobo").click(function(event){
+    event.preventDefault();
+    $(".jumbotron").show();
+    $("#formOne").show();
+    $(".welcomeRobo").hide();
+  });
+
   $("#formOne").submit(function(event){
     event.preventDefault();
     var nameInput = $("input#name").val();
     $(".name").text(nameInput);
+    $(".welcomeRobo").hide();
     $("#formTwo").fadeToggle();
     $(".well").fadeToggle();
     $("#formOne").hide();
@@ -53,9 +61,9 @@ $(document).ready(function(){
     var userInput = $("input#userInput").val();
     isNumber(userInput);
     $("h3").text(execute(userInput));
+    $("#result").show();
     $("#formOne").hide();
     $("#formTwo").hide();
-    $("#result").show();
     $("img").show();
     $(".jumbotron").hide();
   });
