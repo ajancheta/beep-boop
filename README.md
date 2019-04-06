@@ -19,7 +19,7 @@ _This application will allow the user to input a number. Based on the values fro
 
 ## Setup/Installation Requirements
 
-* Go to this link to view the page on GitHub "https://ajancheta.github.io/beep-bop". You may also clone this repository "https://github.com/ajancheta/beep-bop.git"
+* Go to this link to view the page on GitHub "https://ajancheta.github.io/beep-boop". You may also clone this repository "https://github.com/ajancheta/beep-boop.git"
 * Open the repository in a preferred text editor such as Atom.
 * Open the file and view in the web browser of preference.
 
