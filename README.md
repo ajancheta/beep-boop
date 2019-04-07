@@ -5,7 +5,7 @@
 #### By _Ashley J. Ancheta_
 
 ## Description
-_This application will allow the user to input a number. Based on the values from 0 to the number that they will input, there will be elements that will replace some of the values due to various conditions. Concepts such as arrays and loops from Week 3 of introduction to programming were applied to build this program._
+_This application will allow the user to input a number. Based on the values from 0 to the number that the user will submit, there will be elements that will replace some of the values given the various conditions. Concepts such as arrays and loops from Week 3 of introduction to programming were applied to build this program._
 
 ## Specs
 | Behavior | Input | Output |
