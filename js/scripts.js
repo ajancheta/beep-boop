@@ -22,9 +22,9 @@ var execute = function convertNumToWords(numInput) {
     output.push(" ERROR 404");
 //.toString() method will convert [i] to a string and will screen for numbers that include "1", "2" or "3" to replace with another string.
     } else if ([i].toString().includes("1")) {
-      output.push(" Beep");
+      output.push(" Beep!");
     } else if ([i].toString().includes("2")) {
-      output.push(" Boop");
+      output.push(" Boop!");
     } else if ([i].toString().includes("3")) {
       output.push(" I'm sorry Dave, I'm afraid I can't do that");
     } else {
