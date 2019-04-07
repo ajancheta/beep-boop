@@ -6,31 +6,30 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-
     <title>Beep Boop</title>
   </head>
+
   <body>
     <div class="container">
       <div class="welcomeRobo">
-        <h2 id="welcomeRobo">CLICK MY HAND TO INITIALIZE</h2>
+        <h2>CLICK MY HAND TO INITIALIZE</h2>
         <img src="https://media.giphy.com/media/q3kBTEbu3InMQ/giphy.gif" alt="A gif of a robot hand robot">
       </div>
       <div class="jumbotron">
         <div class="welcomemsg">
-          <h1 id="welcome">Greetings</h1>
-          <h2>Thank you for initializing me! You have reached a webpage where you can enter a number and recieve a message from me</h2>
-
-        <form id="formOne">
-          <p>First tell me who you are:</p>
-          <div class="form-row">
-            <div class="col">
-              <input id="name" class="form-control" placeholder="Enter your name">
-            </div>
-          </div>
-          <br><button type="submit" name="button">Submit</button>
-          </div>
-        </form>
+          <h1 id="welcome">Greetings!!</h1>
+          <h2>Thank you for initializing me. You have reached a webpage where you can enter a number and recieve a message from me</h2>
       </div>
+      <form id="formOne" align="center">
+        <p>First tell me who you are:</p>
+        <div class="form-row">
+          <div class="col">
+            <input id="name" class="form-control" placeholder="Enter your name">
+          </div>
+        </div>
+        <br><button type="submit" name="button">Submit</button>
+        </div>
+      </form>
 
       <form id="formTwo">
         <div class="well">
@@ -44,9 +43,7 @@
 
       <div id="result">
         <div class="well">
-          <div class="robogif">
-            <center><img src="img/robo2.gif" alt="A gif of a robot"></center><br>
-          </div>
+          <center><img src="img/robo2.gif" alt="A gif of a robot"></center><br>
           <h1>Hey <span class="name"></span>, have a nice day!<br>
           <h3></h3><br>
           <a href="https://ajancheta.github.io/beep-boop/">Go Back Home</a>
