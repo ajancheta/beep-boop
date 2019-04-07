@@ -38,8 +38,8 @@ var execute = function convertNumToWords(numInput) {
 $(document).ready(function(){
   $(".welcomeRobo").click(function(event){
     event.preventDefault();
-    $(".jumbotron").show();
-    $("#formOne").show();
+    $(".jumbotron").fadeToggle();
+    $("#formOne").fadeToggle();
     $(".welcomeRobo").hide();
 
   });
@@ -62,10 +62,10 @@ $(document).ready(function(){
     var userInput = $("input#userInput").val();
     isNumber(userInput);
     $("h3").text(execute(userInput));
-    $("#result").show();
+    $("#result").fadeToggle();
+    $("img").show();
     $("#formOne").hide();
     $("#formTwo").hide();
-    $("img").show();
     $(".jumbotron").hide();
 
   });
