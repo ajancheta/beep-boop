@@ -5,9 +5,8 @@ body {
   font-family: 'Play', sans-serif;
   background-color: #e3e3e3;
   background-image: url(../img/background.png);
-  background-size: 105%;
-  background-attachment: fixed;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 175%;
 }
 
 /* jumbotron styles */
