@@ -4,14 +4,13 @@
 function isNumber(input) {
   if (isNaN(input)) {
     alert("Please enter a number that I can read.")
-    window.location.reload();
   } else {
     return true;
   }
 }
 
 //A for loop was created to loop through numInput initiated by user and will screen for the following if statements. Index [i] will loop from 0 to the number that the user submits.
-var execute = function convertNumToWords(numInput) {
+function convertNumToWords(numInput) {
   var output = [];
   var userName = $("#name").val();
   for (var i=0; i <=numInput; i++) {
@@ -61,11 +60,11 @@ $(document).ready(function(){
     event.preventDefault();
     var userInput = $("input#userInput").val();
     isNumber(userInput);
-    $("h3").text(execute(userInput));
+    $("h3").text(convertNumToWords(userInput));
     $("#result").fadeToggle();
     $("img").show();
     $("#formOne").hide();
-    $("#formTwo").hide();
+    $("#formTwo").show();
     $(".jumbotron").hide();
 
   });
