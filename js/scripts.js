@@ -18,8 +18,7 @@ function convertNumToWords(numInput) {
     if (i % 15 === 0 && i > 0) {
     output.push(" " + userName + "," + " you found a number divisible by 15!");
   } if (i === 404) {
-    output.push("Uh oh " + userName + " you have reached an ERROR 404")
-    // output.push(" ERROR 404");
+    output.push("Uh oh " + userName + " you have reached an ERROR 404");
 //.toString() method will convert [i] to a string and will screen for numbers that include "1", "2" or "3" to replace with another string.
     } else if ([i].toString().includes("3")) {
       output.push(" I'm sorry Dave, I'm afraid I can't do that");
