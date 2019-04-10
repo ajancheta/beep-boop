@@ -5,7 +5,7 @@ body {
   font-family: 'Play', sans-serif;
   background-color: #e3e3e3;
   background-image: url(../img/background.png);
-  background-repeat: no-repeat;
+  background-repeat: center;
   background-size: 175%;
 }
 
