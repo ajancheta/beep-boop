@@ -17,7 +17,7 @@ _This application will allow the user to submit a number. Based on the values fr
 
 ## Setup/Installation Requirements
 
-* Go to this link to view the page on GitHub "https://ajancheta.github.io/beep-boop". You may also clone this repository "https://github.com/ajancheta/beep-boop.git"
+* Clone this repository "https://github.com/ajancheta/beep-boop.git"
 * Open the repository in a preferred text editor such as Atom.
 * Open the file and view in the web browser of preference.
 
